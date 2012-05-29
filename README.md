@@ -1,0 +1,1 @@
+I love [Readability](http://readability.com/) but when they introduced the social functions, it became a bit overloaded. I just wanted to a simple bookmarklet that would reformat articles I am reading. So I found the old source & made a few small changes.
