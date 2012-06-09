@@ -7,9 +7,18 @@ body {
     line-height: 1.5;
 }
 
+h2 {
+    font-size: 1.2em;
+    text-decoration: underline;
+}
+
+h3 {
+    font-size: 1em;
+}
+
 #readability-logo,#arc90-logo,.footer-twitterLink,#readTools a,a.rdbTK-powered span {
     background-color: transparent!important;
-    background-image: url(http://www.morninj.com/readability/sprite-readability.png)!important;
+    background-image: url(http://axelanderson.dev.buddymedia.com/readability/sprite-readability.png)!important;
     background-repeat: no-repeat!important;
 }
 
@@ -72,14 +81,6 @@ body {
     text-align: center;
 }
 
-.style-apertura #readInner h1 {
-    border-bottom-color: #ededed;
-}
-
-.style-terminal #readInner h1 {
-    border-bottom-color: #c6ffc6;
-}
-
 #readInner blockquote {
     margin-left: 3em;
     margin-right: 3em;
@@ -104,20 +105,16 @@ div.page {
 }
 
 /* Footer */
+#readFooter {
+    display: none;
+}
+
 #rdb-footer-wrapper {
     display: block;
     border-top: 1px solid #333;
     clear: both;
     overflow: hidden;
     margin: 2em 0;
-}
-
-.style-apertura #rdb-footer-wrapper {
-    border-top-color: #ededed;
-}
-
-.style-terminal #rdb-footer-wrapper {
-    border-top-color: #c6ffc6;
 }
 
 #rdb-footer-left {
@@ -150,14 +147,6 @@ div.page {
     height: 29px;
     width: 96px;
     text-indent: -9000px;
-}
-
-.style-apertura #readability-logo,.style-terminal #readability-logo {
-    background-position: 0 -67px;
-}
-
-.style-apertura #arc90-logo,.style-terminal #arc90-logo {
-    background-position: right -67px;
 }
 
 #rdb-footer-right {
@@ -206,10 +195,6 @@ a.rdbTK-powered span {
     margin-left: 2px;
     background-position: 0 -146px!important;
     padding: 4px 0 0 26px;
-}
-
-.style-apertura #rdb-inverse,.style-athelas #rdb-athelas {
-    display: block;
 }
 
 #rdb-footer-print,#readability-url,.rdbTypekit #rdb-footer-right .footer-twitterLink,span.version {
@@ -292,76 +277,6 @@ a.rdbTK-powered span {
 .size-x-large h1 {
     font-size: 1.6em;
     line-height: 1.3em;
-}
-/* Style */
-.style-newspaper {
-    font-family: Georgia,"Times New Roman", Times, serif;
-    background: #fbfbfb;
-    color: #080000;
-}
-
-.style-newspaper h1 {
-    text-transform: capitalize;
-    font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-.style-newspaper #readInner a {
-    color: #0924e1;
-}
-
-.style-novel {
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    background: #f4eed9;
-    color: #1d1916;
-}
-
-.style-novel #readInner a {
-    color: #1856ba;
-}
-
-.style-ebook {
-    font-family: Arial, Helvetica, sans-serif;
-    background: #edebe8;
-    color: #2c2d32;
-}
-
-.style-ebook #readInner a {
-    color: #187dc9;
-}
-
-.style-ebook h1 {
-    font-family: "Arial Black", Gadget, sans-serif;
-    font-weight: 400;
-}
-
-.style-terminal {
-    font-family: "Lucida Console", Monaco, monospace;
-    background: #1d4e2c;
-    color: #c6ffc6;
-}
-
-.style-terminal #readInner a {
-    color: #093;
-}
-/* Typekit */
-.style-apertura {
-    font-family: apertura-1,apertura-2,sans-serif;
-    background-color: #2d2828;
-    color: #eae8e9;
-}
-
-.style-apertura #readInner a {
-    color: #58b0ff;
-}
-
-.style-athelas {
-    font-family: athelas-1,athelas-2,"Palatino Linotype","Book Antiqua",Palatino,serif !important;
-    background-color: #f7f7f7;
-    color: #2b373d;
-}
-
-.style-athelas #readInner a {
-    color: #1e83cb;
 }
 /* Margin */
 .margin-x-narrow {
