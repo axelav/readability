@@ -19,7 +19,7 @@ h3 {
 
 #readability-logo,#arc90-logo,.footer-twitterLink,#readTools a,a.rdbTK-powered span {
     background-color: transparent!important;
-    background-image: url(http://axelanderson.dev.buddymedia.com/readability/sprite-readability.png)!important;
+    background-image: url(http://importantlumens.com/readability/sprite-readability.png)!important;
     background-repeat: no-repeat!important;
 }
 
@@ -51,6 +51,11 @@ h3 {
     float: left;
     clear: both;
     margin: 0 12px 12px 0;
+    opacity:0.5;
+}
+
+#readInner img:hover {
+    opacity:1;
 }
 
 #readInner img.blockImage {
@@ -298,7 +303,7 @@ a.rdbTK-powered span {
 }
 
 .margin-x-wide {
-    width: 35%;
+    width: 45%;
 }
 /* @end User Styles */
 /* -- DEBUG -- */
