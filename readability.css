@@ -1,9 +1,9 @@
-@import url(http://fonts.googleapis.com/css?family=Merriweather:400,700);
+@import url(http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic);
 @charset "utf-8";
 /* Document */
 body {
     color: #333;
-    font-family: 'Merriweather', serif;
+    font-family: 'PT Serif', serif;
     font-size: 10px;
     line-height: 1.5;
 }
